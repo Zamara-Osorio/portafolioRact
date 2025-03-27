@@ -1,0 +1,15 @@
+footer{
+    width: 100%;
+    height: rem;
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer-text{
+    color: #572661;
+    font-size: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+}

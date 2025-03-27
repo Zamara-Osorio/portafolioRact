@@ -1,0 +1,45 @@
+body,#root{
+  max-width: 100vw;
+  height:98vw;
+}
+
+body, #root {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+}body, #root {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative; /* Añadido para posicionamiento del footer */
+}
+
+.footer {
+  width: 100%;
+  position: absolute; /* Cambiado de fixed a absolute */
+  bottom: 0;
+  left: 0;
+}
+
+header {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
